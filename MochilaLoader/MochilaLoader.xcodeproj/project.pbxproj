@@ -14,6 +14,8 @@
 		5AA3EDC41A84018B001E607D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA3EDC31A84018B001E607D /* Images.xcassets */; };
 		5AA3EDC71A84018B001E607D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA3EDC51A84018B001E607D /* LaunchScreen.xib */; };
 		5AA3EDD31A84018B001E607D /* MochilaLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3EDD21A84018B001E607D /* MochilaLoaderTests.m */; };
+		5AA3EDED1A8403C8001E607D /* AZActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3EDEA1A8403C8001E607D /* AZActivityIndicator.m */; };
+		5AA3EDEE1A8403C8001E607D /* AZClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA3EDEC1A8403C8001E607D /* AZClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5AA3EDCC1A84018B001E607D /* MochilaLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MochilaLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA3EDD11A84018B001E607D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AA3EDD21A84018B001E607D /* MochilaLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MochilaLoaderTests.m; sourceTree = "<group>"; };
+		5AA3EDE91A8403C8001E607D /* AZActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AZActivityIndicator.h; path = Classes/AZActivityIndicator.h; sourceTree = "<group>"; };
+		5AA3EDEA1A8403C8001E607D /* AZActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AZActivityIndicator.m; path = Classes/AZActivityIndicator.m; sourceTree = "<group>"; };
+		5AA3EDEB1A8403C8001E607D /* AZClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AZClockView.h; path = Classes/AZClockView.h; sourceTree = "<group>"; };
+		5AA3EDEC1A8403C8001E607D /* AZClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AZClockView.m; path = Classes/AZClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		5AA3EDB51A84018B001E607D /* MochilaLoader */ = {
 			isa = PBXGroup;
 			children = (
+				5AA3EDE21A84038B001E607D /* Classes */,
 				5AA3EDBA1A84018B001E607D /* AppDelegate.h */,
 				5AA3EDBB1A84018B001E607D /* AppDelegate.m */,
 				5AA3EDBD1A84018B001E607D /* ViewController.h */,
@@ -117,6 +124,17 @@
 				5AA3EDD11A84018B001E607D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AA3EDE21A84038B001E607D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5AA3EDE91A8403C8001E607D /* AZActivityIndicator.h */,
+				5AA3EDEA1A8403C8001E607D /* AZActivityIndicator.m */,
+				5AA3EDEB1A8403C8001E607D /* AZClockView.h */,
+				5AA3EDEC1A8403C8001E607D /* AZClockView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA3EDBF1A84018B001E607D /* ViewController.m in Sources */,
+				5AA3EDED1A8403C8001E607D /* AZActivityIndicator.m in Sources */,
+				5AA3EDEE1A8403C8001E607D /* AZClockView.m in Sources */,
 				5AA3EDBC1A84018B001E607D /* AppDelegate.m in Sources */,
 				5AA3EDB91A84018B001E607D /* main.m in Sources */,
 			);
